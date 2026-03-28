@@ -22,13 +22,13 @@
 
             <div class="register-container">
               <div class="role-selector" id="roleSelector">
-                <button class="role-option selected" data-role="caller">
+                <button class="role-option selected" type="button" data-role="caller">
                   <i class="fas fa-phone-alt"></i>
                   <strong>Звонящий</strong>
                   <small style="display: block;">Ищу общение</small>
                 </button>
 
-                <button class="role-option" data-role="friend">
+                <button class="role-option" type="button" data-role="friend">
                   <i class="fas fa-handshake"></i>
                   <strong>Интернет-друг</strong>
                   <small style="display: block;">Зарабатываю</small>
@@ -294,13 +294,13 @@
               <div class="profile-form__roles">
                 <h3 class="profile-form__roles-title">Смена роли</h3>
                 <div class="role-selector" id="roleSelector">
-                  <button class="role-option role-option_caller" data-role="caller">
+                  <button class="role-option role-option_caller" type="button" data-role="caller">
                     <i class="fas fa-phone-alt"></i>
                     <strong>Звонящий</strong>
                     <small style="display: block;">Ищу общение</small>
                   </button>
 
-                  <button class="role-option role-option_friend" data-role="friend">
+                  <button class="role-option role-option_friend" type="button" data-role="friend">
                     <i class="fas fa-handshake"></i>
                     <strong>Интернет-друг</strong>
                     <small style="display: block;">Зарабатываю</small>
